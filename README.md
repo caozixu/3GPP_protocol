@@ -15,3 +15,5 @@ CR = contention resolution（竞争解决）
 
 MSG3_DeltaPreamble在331中给出，定义时指出，Actual Value = filed value * 2 (dB) 。
 
+# UL GRANT  
+有动态上行调度和无动态授权的传输两种。（Dynamic scheduling & Configured Grant）
