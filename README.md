@@ -28,8 +28,9 @@ RAN1#103-e会议中Tdoc R1-2009480中提案：
 
 # UL GRANT  
 有动态上行调度和无动态授权的传输两种。（Dynamic scheduling & Configured Grant）  
-无动态授权的PUSCH传输，即configured grant，有两种TYPE分别为TYPE 1和TYPE 2。  
-TYPE1为RRC发起的PUSCH传输（个人猜测为UE主动发送用户数据），TYPE2为PDCCH激活的传输（个人猜测为DCI激活半静态调度的发送，semi-persistent transmission）。  
+无动态授权的PUSCH传输，即configured grant，有两种TYPE分别为TYPE 1和TYPE 2:  
+1. TYPE1为RRC发起的PUSCH传输（个人猜测为UE主动发送用户数据）  
+2. TYPE2为PDCCH激活的传输（个人猜测为DCI激活半静态调度的发送，semi-persistent transmission）。  
 Dynamic Grant猜测为NW请求UE发送特定数据。  
 
 # PUSCH repetition(是否是M-TRP PUSCH repetition有待考察)
