@@ -4,6 +4,7 @@ SI = system information（Other SI会触发RA过程，是RA的一个场景）
 CR = contention resolution（竞争解决）
   
 3GPP查看协议为什么这么做  
-会议报告-->Work Agreement-->T-doc  
-  
+会议-->Work Agreement-->T-doc  
+
+# For RA
 2-step RA fallback到4-step之后，若CR fail，之后依旧会回到2-step RA的MSGA发送。
