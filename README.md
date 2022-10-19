@@ -9,11 +9,11 @@ CR = contention resolution（竞争解决）
 # RA
 2-step RA fallback到4-step之后，若CR fail，之后依旧会回到2-step RA的MSGA发送。
 
-# 功率控制
-为什么需要FullPowerTransmission将上行功率达到最大？  
-需要日后确定。  
+## 功率控制
+为什么需要FullPowerTransmission将上行功率达到最大？ （需要日后确定）  
+MSG3_DeltaPreamble在331中给出，定义时指出，Actual Value = filed value * 2 (dB) 。  
+P_O_UE_PUSCH,b,f,c(1)有两个value，由SRS resource set indicator决定。  
 
-MSG3_DeltaPreamble在331中给出，定义时指出，Actual Value = filed value * 2 (dB) 。
 
 # UL GRANT  
 有动态上行调度和无动态授权的传输两种。（Dynamic scheduling & Configured Grant）
