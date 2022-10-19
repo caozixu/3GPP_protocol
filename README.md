@@ -2,6 +2,9 @@
 nrof = number of  
 SI = system information（Other SI会触发RA过程，是RA的一个场景）  
 CR = contention resolution（竞争解决）
+TPMI = Transmitted Precoding Matrix Indicator（由NW传下来的预编码矩阵指示？）
+SRI = SRS Resource Indicator
+SUL = Supplementary Uplink（补充上行链路，配置在低频点，传播范围广，用于一般UL传不到基站的情况）
 
 # 3GPP查看协议为什么这么做  
 会议-->Work Agreement-->T-doc。  
