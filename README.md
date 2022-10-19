@@ -12,5 +12,4 @@ CR = contention resolution（竞争解决）
 # 功率控制
 为什么需要FullPowerTransmission将上行功率达到最大？  
 需要日后确定
-
 f
