@@ -10,7 +10,11 @@ CR = contention resolution（竞争解决）
 2-step RA fallback到4-step之后，若CR fail，之后依旧会回到2-step RA的MSGA发送。
 
 # 功率控制
-为什么需要FullPowerTransmission将上行功率达到最大？ （需要日后确定）  
+为什么需要FullPowerTransmission将上行功率达到最大？ （需要日后确定） 
+fullpower三种模式的特性：从学习资料38.213_Ch7_Steven_202209.pptx中得到：
+1. fullpower下，仅有一个天线端口，单端口满功率。
+2. fullpowerMode1，两路Tx需要共同发射信号以达到总体最大power。
+3. fullpowerMode2，两路Tx一起发送都不一定能够达到总体最大功率，有的路打满，有的路打不满。
 
 MSG3_DeltaPreamble在331中给出，定义时指出，Actual Value = filed value * 2 (dB) 。  
 
@@ -23,5 +27,9 @@ RAN1#103-e会议中Tdoc R1-2009480中提案：
 2. FFS: SRI field in DCI 改动以强化两种beam的repetition。
 
 
+
 # UL GRANT  
-有动态上行调度和无动态授权的传输两种。（Dynamic scheduling & Configured Grant）
+有动态上行调度和无动态授权的传输两种。（Dynamic scheduling & Configured Grant）  
+无动态授权的PUSCH传输，即configured grant，有两种TYPE分别为TYPE 1和TYPE 2。  
+TYPE1为RRC发起的PUSCH传输（个人猜测为UE主动发送用户数据），TYPE2为PDCCH激活的传输（个人猜测为DCI激活半静态调度的发送，semi-persistent transmission）。  
+Dynamic Grant猜测为NW请求UE发送特定数据。  
