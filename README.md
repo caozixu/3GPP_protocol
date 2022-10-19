@@ -31,8 +31,7 @@ RAN1#103-e会议中Tdoc R1-2009480中提案：
 无动态授权的PUSCH传输，即configured grant，有两种TYPE分别为TYPE 1和TYPE 2:  
 1. TYPE1为RRC发起的PUSCH传输（个人猜测为UE主动发送用户数据）  
 2. TYPE2为PDCCH激活的传输（个人猜测为DCI激活半静态调度的发送，semi-persistent transmission）。  
-  
-Dynamic Grant猜测为NW请求UE发送特定数据。  
+  Dynamic Grant猜测为NW请求UE发送特定数据。  
 
 # PUSCH repetition(是否是M-TRP PUSCH repetition有待考察)
 行为是：在多个slot重复地发送同一个TB。不同于HARQ由NW发送NACK触发重传，这个是UE经过配置后，主动发送。  
