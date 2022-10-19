@@ -6,5 +6,8 @@ CR = contention resolution（竞争解决）
 # 3GPP查看协议为什么这么做  
 会议-->Work Agreement-->T-doc  
 
-# For RA
+# RA
 2-step RA fallback到4-step之后，若CR fail，之后依旧会回到2-step RA的MSGA发送。
+
+# 功率控制
+FullPowerTransmission  
