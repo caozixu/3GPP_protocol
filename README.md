@@ -18,7 +18,9 @@ P_O_UE_PUSCH,b,f,c(1)有两个value，由SRS resource set indicator决定。
 RAN1#107-e会议中Tdoc R1-2112583中说明：  
 1. 为了URLLC mTRP改动了SRS resource sets可为两个。  
 2. 为了支持指示两个TPMI，SRS端口数应与两个TRP一致。  
-3. 
+RAN1#103-e会议中Tdoc R1-2009480中提案：
+1. SRS resource sets设为2，为每个SRS resource set 配CSI-RS resource。
+2. FFS: SRI field in DCI 改动以强化两种beam的repetition。
 
 
 # UL GRANT  
